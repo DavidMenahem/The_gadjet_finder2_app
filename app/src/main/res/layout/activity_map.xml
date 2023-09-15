@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/map">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/delete_gadget"
+            android:layout_width="@dimen/button_width"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/label_text"
+            android:text="@string/delete_gadget"
+            android:textAllCaps="false"
+            />
+
+        <TextView
+            android:id="@+id/gadget_name"
+            android:layout_width="@dimen/edit_width"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/label_text"
+            android:layout_alignParentEnd="true"/>
+    </RelativeLayout>
+
+</LinearLayout>

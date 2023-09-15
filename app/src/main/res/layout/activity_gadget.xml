@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/add_gadget"
+        android:textSize="@dimen/header_text"
+        android:layout_gravity="center"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textSize="@dimen/label_text"
+        android:text="Gadget name"
+        android:labelFor="@+id/gadget_name_edit_txt"
+        />
+    <EditText
+        android:id="@+id/gadget_name_edit_txt"
+        android:layout_width="@dimen/edit_width"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textSize="@dimen/label_text"
+        />
+    <TextView
+        android:id="@+id/text_input_error_gadget_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textSize="@dimen/error_text"
+        />
+
+    <Button
+        android:id="@+id/gadget_add_button"
+        android:layout_width="@dimen/button_width"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:text="Add"
+        android:layout_gravity="center"
+        />
+
+    <TextView
+        android:id="@+id/gadget_txt_response"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/label_text"
+        android:layout_gravity="center"
+        />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <GridLayout
+            android:id="@+id/view_all"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:columnCount="4">
+        </GridLayout>
+    </ScrollView>
+</LinearLayout>

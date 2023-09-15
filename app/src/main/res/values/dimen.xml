@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="header_text">24sp</dimen>
+    <dimen name="label_text">20sp</dimen>
+    <dimen name="link_text">16sp</dimen>
+    <dimen name="error_text">16sp</dimen>
+    <dimen name="edit_width">250dp</dimen>
+    <dimen name="button_width">120dp</dimen>
+</resources>
